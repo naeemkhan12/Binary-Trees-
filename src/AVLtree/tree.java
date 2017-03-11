@@ -18,7 +18,6 @@ public class tree {
 		 if( pointer.data>t){
 			if(pointer.left==null){
 				pointer.left=new node(t);
-//				pointer.lHeight++;
 				return;
 			}
 			else{
@@ -27,7 +26,6 @@ public class tree {
 		}else{
 			if(pointer.right==null){
 				pointer.right=new node(t);
-//				pointer.rHeight++;
 				return;
 			}
 			else{
@@ -49,7 +47,6 @@ public class tree {
 			return  search(pointer.right, t);
 			
 		}
-		
 		
 	}
 	
